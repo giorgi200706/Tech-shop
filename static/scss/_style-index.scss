@@ -1,0 +1,12 @@
+header{
+    & > div{
+        width: 90%;
+        height: 70px;
+        background-color: rgba(174, 223, 206, 0.575);
+        margin: 0 auto;
+
+        & > img{
+            height: 70px;
+        }
+    }
+}
