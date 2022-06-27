@@ -44,13 +44,73 @@ table {
 }
 
 header > div {
-  width: 90%;
+  width: 92%;
   height: 70px;
   background-color: rgba(174, 223, 206, 0.575);
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 header > div > img {
-  height: 70px;
+  height: 62px;
+  width: 169px;
+  margin-top: 4px;
+}
+
+header > div .form {
+  width: 667px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 8px;
+  margin-left: 26px;
+  margin-right: 110px;
+}
+
+header > div .form .text {
+  width: 600px;
+  height: 46px;
+  border: 1px solid #eaebee;
+  border-radius: 5px;
+  margin-right: 2px;
+}
+
+header > div .form .text::-webkit-input-placeholder {
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+header > div .form .text:-ms-input-placeholder {
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+header > div .form .text::-ms-input-placeholder {
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+header > div .form .text::placeholder {
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+header > div .form > button {
+  width: 52px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid #eaebee;
+  border-radius: 5px;
+}
+
+header > div .form > button > img {
+  width: 20px;
+  height: 20px;
 }
 /*# sourceMappingURL=global.css.map */

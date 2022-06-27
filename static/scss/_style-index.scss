@@ -1,12 +1,52 @@
 header{
     & > div{
-        width: 90%;
+        width: 92%;
         height: 70px;
         background-color: rgba(174, 223, 206, 0.575);
         margin: 0 auto;
+        display: flex;
 
         & > img{
-            height: 70px;
+            height: 62px;
+            width: 169px;
+            margin-top: 4px;
+        }
+
+        .form{
+            width: 667px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            margin-left: 26px;
+            margin-right: 110px;
+
+            .text{
+                width: 600px;
+                height: 46px;
+                border: 1px solid rgb(234, 235, 238);
+                border-radius: 5px;
+                margin-right: 2px;
+            }
+            .text::placeholder{
+                font-size: 14px;
+                padding-left: 25px;
+            }
+            & > button{
+                width: 52px;
+                height: 50px;
+                background-color: #ffffff;
+                border: 1px solid rgb(234, 235, 238);
+                border-radius: 5px;
+                & > img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+        .right{
+
         }
     }
 }
