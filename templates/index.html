@@ -6,11 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../static/css/global.css">
         <title>Document</title>
+
+        <link href="https://free.bboxtype.com/embedfonts/?family=FiraGO:400" rel="stylesheet">
     </head>
     <body>
         <header>
             <div>
-                <img src="{{url_for('static',filename = 'images/logo.png')}}" alt="logo">
+                <a href=""><img src="{{url_for('static',filename = 'images/logo.png')}}" alt="logo"></a>
                 <div class="form">
                     <input class="text" type="text" id="fname" name="fname" placeholder="ძიება..">
                     <button>
@@ -18,7 +20,18 @@
                     </button>
                 </div>
                 <div class="right">
-
+                    <a href="">
+                        <div class="profile">
+                            <img src="http://cdn.onlinewebfonts.com/svg/img_574534.png" alt="">
+                            <p>პროფილი</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="basket">
+                            <img src="https://icons-for-free.com/download-icon-basket+buy+cart+shop+shopping+store+icon-1320073180063197567_512.png" alt="">
+                            <p>0₾</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </header>

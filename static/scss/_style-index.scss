@@ -2,14 +2,15 @@ header{
     & > div{
         width: 92%;
         height: 70px;
-        background-color: rgba(174, 223, 206, 0.575);
         margin: 0 auto;
         display: flex;
 
-        & > img{
-            height: 62px;
-            width: 169px;
-            margin-top: 4px;
+        & > a{
+            & > img{
+                height: 62px;
+                width: 169px;
+                margin-top: 4px;
+            }
         }
 
         .form{
@@ -32,12 +33,16 @@ header{
                 font-size: 14px;
                 padding-left: 25px;
             }
+            .text:focus{
+                text-decoration: none;
+            }
             & > button{
                 width: 52px;
                 height: 50px;
                 background-color: #ffffff;
                 border: 1px solid rgb(234, 235, 238);
                 border-radius: 5px;
+                cursor: pointer;
                 & > img{
                     width: 20px;
                     height: 20px;
@@ -46,7 +51,54 @@ header{
         }
 
         .right{
+            width: 200px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
 
+            & > a{
+                text-decoration: none;
+                .profile{
+                    width: 100px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    & > img{
+                        margin-top: 6px;
+                        height: 25px;
+                        width: 22px;
+                    }
+                    & > p{
+                        color: $text-color;
+                        font-family: $firago-regular;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 14px;
+                        margin-top: 15px;
+                    }
+                }
+                .basket{
+                    width: 58px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    & > img{
+                        margin-top: 4px;
+                        height: 32px;
+                    }
+                    & > p{
+                        color: $text-color;
+                        font-family: $firago-regular;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 14px;
+                        margin-top: 15px;
+                    }
+                }
+            }
         }
     }
 }
