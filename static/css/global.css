@@ -43,6 +43,15 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 header > div {
   width: 92%;
   height: 70px;
@@ -183,5 +192,224 @@ header > div .right > a .basket > p {
   font-size: 16px;
   line-height: 14px;
   margin-top: 15px;
+}
+
+section .s-1 #slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .s-1 #slider .container {
+  width: 1600px;
+  margin: auto;
+}
+
+section .s-1 #slider .container .subcontainer {
+  width: 100%;
+  margin: auto;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper {
+  position: relative;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper #tns1-ow > button {
+  display: none;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .controller {
+  top: 166px;
+  left: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls {
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls > button {
+  padding: 2px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 6px;
+  outline: none;
+  -webkit-transition: 0.38s ease-in-out;
+  transition: 0.38s ease-in-out;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls > button > i {
+  color: white;
+  font-size: 0.75rem;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls > button:hover {
+  background-color: #ff5000;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider {
+  position: relative;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .slide-img {
+  width: 100%;
+  height: 369px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .slide-img > a {
+  text-decoration: none;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  font-size: 1.5rem;
+  color: white;
+  opacity: 0;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .slide-img:hover {
+  -webkit-box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.2) inset;
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .slide-img:hover a {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-1 {
+  background-image: url(../images/index/s-1/1.png);
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-2 {
+  background-image: url(../images/index/s-1/2.png);
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-3 {
+  background-image: url(../images/index/s-1/3.png);
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-4 {
+  background-image: url(../images/index/s-1/4.png);
+}
+
+section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-5 {
+  background-image: url(../images/index/s-1/5.png);
+}
+
+section .s-1 .nav {
+  width: 227px;
+  height: 369px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translate(43px, -369px);
+          transform: translate(43px, -369px);
+}
+
+section .s-1 .nav > a {
+  height: 40px;
+  width: 100%;
+  color: #0a3251;
+  border-bottom: 0.15px solid rgba(0, 0, 0, 0.05);
+}
+
+section .s-1 .nav > a > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+section .s-1 .nav > a > div > i {
+  height: 20px;
+  margin-top: 10px;
+}
+
+section .s-1 .nav > a > div > p {
+  font-size: 12px;
+  font-family: "FiraGO", sans-serif;
+  line-height: 40px;
+}
+
+section .s-1 .nav > a > div .m12 {
+  margin-right: 20px;
+}
+
+section .s-1 .nav > a > div .m14 {
+  margin-right: 16px;
+}
+
+section .s-1 .nav > a > div .m16 {
+  margin-right: 14px;
+}
+
+section .s-1 .nav > a > div .m20 {
+  margin-right: 12px;
+}
+
+section .s-1 .nav > :hover {
+  background-color: #f5f5f5;
+}
+
+section .s-1 .nav .main-nav-button {
+  height: 49px;
+  background-color: #ff5000;
+  text-decoration: none;
+}
+
+section .s-1 .nav .main-nav-button > div > i {
+  margin-top: 16px;
+  margin-right: 15px;
+}
+
+section .s-1 .nav .main-nav-button > div > p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "FiraGO", sans-serif;
+  line-height: 49px;
 }
 /*# sourceMappingURL=global.css.map */
