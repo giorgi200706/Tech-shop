@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../static/css/global.css">
+        <title>Document</title>
+
+        <!-- slider -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+
+        <link href="https://free.bboxtype.com/embedfonts/?family=FiraGO:400" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href=""><img src="{{url_for('static',filename = 'images/logo.png')}}" alt="logo"></a>
+                <div class="form">
+                    <input class="text" type="text" id="fname" name="fname" placeholder="ძიება..">
+                    <button>
+                        <img src="data:image/png;base64,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" alt="img">
+                    </button>
+                </div>
+                <div class="right">
+                    <a href="">
+                        <div class="profile">
+                            <img src="http://cdn.onlinewebfonts.com/svg/img_574534.png" alt="">
+                            <p>პროფილი</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="basket">
+                            <img src="https://icons-for-free.com/download-icon-basket+buy+cart+shop+shopping+store+icon-1320073180063197567_512.png" alt="">
+                            <p>0₾</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section>
+            
+        </section>
+        <footer>
+
+        </footer>
+
+        <script src="../static/js/script.js" ></script>
+    </body>
+</html>
