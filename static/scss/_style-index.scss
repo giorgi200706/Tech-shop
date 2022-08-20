@@ -289,7 +289,8 @@ section{
     .s-2{
         width: 93%;
         margin: 0 auto;
-        .hot{
+
+        .hot , .brands{
             .title{
                 margin-top: 15px;
                 padding-bottom: 26px;
@@ -314,19 +315,23 @@ section{
                     font-size: 17px;
                 }
             }
+        }
+        .hot{
             .list{
                 width: 100%;
-                padding-bottom: 100px;
+                padding-bottom: 10px;
                 .biggie{
                     width: 100%;
                     display: flex;
                     justify-content: space-between;
+                    flex-wrap: wrap;
                     .box{
                         width: 218px;
                         height: 269px;
                         background-color: #ffffff;
                         box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.02);
                         border-radius: 8px;
+                        margin-bottom: 20px;
                         
                         & > img{
                             margin-left: 30px;
@@ -376,6 +381,94 @@ section{
                 }
             }
         }
+        .brands{
+            .list{
+                #slider{
+        
+                    .container{
+        
+                        .subcontainer{
+                            width: 100%;
+                            margin: auto;
+        
+                            .slider-wrapper{
+                                position: relative;
+                                width: 100%;
+        
+                                #tns1-ow{
+                                    & > button{
+                                        display: none;
+                                    }
+                                }
+        
+                                .controller{
+                                    width: 100px;
+                                    position: absolute;
+                                    right: 10px;
+                                    top: -65px;
+        
+                                    .controls{
+        
+                                        & > button{
+                                            transform: skew(-10deg);
+                                            width: 36px;
+                                            height: 31px;
+                                            border: solid 2px #e8e8e8;
+                                            background-color: #ffffff;
+                                            border-radius: 4px;
+
+                                            & > i{
+                                                
+                                            }
+                                        }
+                                        & > button:hover{
+                                            
+                                        }
+                                    }
+                                }
+                                .my-slider2{
+                                    position: relative;
+                                    & > div{
+                                        .slide{
+                                            .slide-img{
+                                                width: 222px;
+                                                height: 72px;
+                                                background-position: center;
+                                                background-size: cover;
+                                                cursor: pointer;
+        
+                                            }
+                                            .slide-img:hover{
+                                                box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.15) inset;
+                                                transform: scale(1);
+                                                
+                                            }
+        
+                                            .img-1{
+                                                background-image: url(../images/index/s-2/brands/0124554_apple.png);
+                                            }
+                                            .img-2{
+                                                background-image: url(../images/index/s-2/brands/0124554_apple.png);
+                                            }
+                                            .img-3{
+                                                background-image: url(../images/index/s-2/brands/0124554_apple.png);
+                                            }
+                                            .img-4{
+                                                background-image: url(../images/index/s-2/brands/0124554_apple.png);
+                                            }
+                                            .img-5{
+                                                background-image: url(../images/index/s-2/brands/0124554_apple.png);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
     }
 }
 

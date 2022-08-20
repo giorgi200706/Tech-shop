@@ -40,10 +40,6 @@ for i in range(len(sql.phone)):
     })
 
 
-for i in range(len(phone)):
-    print(phone[i])
-    print()
-    print()
 
 
 
