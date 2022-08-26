@@ -290,7 +290,7 @@ section{
         width: 93%;
         margin: 0 auto;
 
-        .hot , .brands{
+        .hot , .brands , .top , .nah{
             .title{
                 margin-top: 15px;
                 padding-bottom: 26px;
@@ -383,6 +383,7 @@ section{
         }
         .brands{
             .list{
+                padding-bottom: 43px;
                 #slider{
         
                     .container{
@@ -411,17 +412,12 @@ section{
         
                                         & > button{
                                             transform: skew(-10deg);
-                                            width: 36px;
-                                            height: 31px;
+                                            width: 44px;
+                                            height: 36px;
                                             border: solid 2px #e8e8e8;
                                             background-color: #ffffff;
                                             border-radius: 4px;
 
-                                            & > i{
-                                                
-                                            }
-                                        }
-                                        & > button:hover{
                                             
                                         }
                                     }
@@ -430,15 +426,20 @@ section{
                                     position: relative;
                                     & > div{
                                         .slide{
+                                            width: 222px;
+                                            height: 86px;
+                                            padding-top: 7px;
+                                            padding-bottom: 7px;
                                             .slide-img{
-                                                width: 222px;
+                                                width: 170px;
                                                 height: 72px;
+                                                margin: 0 auto;
                                                 background-position: center;
                                                 background-size: cover;
                                                 cursor: pointer;
         
                                             }
-                                            .slide-img:hover{
+                                            .slide:hover{
                                                 box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.15) inset;
                                                 transform: scale(1);
                                                 
@@ -448,16 +449,31 @@ section{
                                                 background-image: url(../images/index/s-2/brands/0124554_apple.png);
                                             }
                                             .img-2{
-                                                background-image: url(../images/index/s-2/brands/0124554_apple.png);
+                                                background-image: url(../images/index/s-2/brands/0125036_google.png);
                                             }
                                             .img-3{
-                                                background-image: url(../images/index/s-2/brands/0124554_apple.png);
+                                                background-image: url(../images/index/s-2/brands/0125319_microsoft.png);
                                             }
                                             .img-4{
-                                                background-image: url(../images/index/s-2/brands/0124554_apple.png);
+                                                background-image: url(../images/index/s-2/brands/0125417_oneplus.png);
                                             }
                                             .img-5{
-                                                background-image: url(../images/index/s-2/brands/0124554_apple.png);
+                                                background-image: url(../images/index/s-2/brands/0125724_marshall.png);
+                                            }
+                                            .img-6{
+                                                background-image: url(../images/index/s-2/brands/0131069_msi.png);
+                                            }
+                                            .img-7{
+                                                background-image: url(../images/index/s-2/brands/0141374_huawei.png);
+                                            }
+                                            .img-8{
+                                                background-image: url(../images/index/s-2/brands/0144108_xiaomi.png);
+                                            }
+                                            .img-9{
+                                                background-image: url(../images/index/s-2/brands/0158419_hp.png);
+                                            }
+                                            .img-10{
+                                                background-image: url(../images/index/s-2/brands/0164271_canon.png);
                                             }
                                         }
                                     }
@@ -468,7 +484,169 @@ section{
                 }
             }
         }
+        .top{
+            .list{
+                width: 100%;
+                padding-bottom: 10px;
+                .biggie{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    .box{
+                        width: 218px;
+                        height: 269px;
+                        background-color: #ffffff;
+                        box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.02);
+                        border-radius: 8px;
+                        margin-bottom: 20px;
+                        
+                        & > img{
+                            margin-left: 30px;
+                            margin-top: 15px;
+                            width: 157px;
+                            height: 157px;
+                        }
+                        .info{
+                            margin: 0 auto;
+                            width: 198px;
+                            height: 87px;
 
+                            text-align: center;
+                            & > h4{
+                                max-width: 175px;
+                                margin: 0 auto;
+                                height: 30px;
+                                font-size: 15px;
+                                font-family: $firago-regular;
+                                font-weight: bold;
+                                color: #0a3251;
+                                margin-bottom: 5px;
+                            }
+                            & > h5{
+                                line-height: 27px;
+                                font-size: 20px;
+                                font-family: $firago-regular;
+                                font-weight: bold;
+                                color: #0a3251;
+                                margin-bottom: 5px;
+                            }
+                            & > div{
+                                margin: 0 auto;
+                                width: 100px;
+                                font-size: 12px;
+                                font-family: $firago-regular;
+                                font-weight: 600;
+                                .s1{
+                                    color: #FE5F55;
+                                }   
+                                .s2{
+                                    color: #7B838E;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .nah{
+            .list{
+                width: 100%;
+                padding-bottom: 10px;
+                .biggie{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    .box{
+                        width: 218px;
+                        height: 269px;
+                        background-color: #ffffff;
+                        box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.02);
+                        border-radius: 8px;
+                        margin-bottom: 20px;
+                        
+                        & > img{
+                            margin-left: 30px;
+                            margin-top: 15px;
+                            width: 157px;
+                            height: 157px;
+                        }
+                        .info{
+                            margin: 0 auto;
+                            width: 198px;
+                            height: 87px;
+
+                            text-align: center;
+                            & > h4{
+                                max-width: 175px;
+                                margin: 0 auto;
+                                height: 30px;
+                                font-size: 15px;
+                                font-family: $firago-regular;
+                                font-weight: bold;
+                                color: #0a3251;
+                                margin-bottom: 5px;
+                            }
+                            & > h5{
+                                line-height: 27px;
+                                font-size: 20px;
+                                font-family: $firago-regular;
+                                font-weight: bold;
+                                color: #0a3251;
+                                margin-bottom: 5px;
+                            }
+                            & > div{
+                                margin: 0 auto;
+                                width: 100px;
+                                font-size: 12px;
+                                font-family: $firago-regular;
+                                font-weight: 600;
+                                .s1{
+                                    color: #FE5F55;
+                                }   
+                                .s2{
+                                    color: #7B838E;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
+
+    .s-3{
+        margin-top: 30px;
+        width: 100%;
+        padding-bottom: 60px;
+        & > div{
+            display: flex;
+            justify-content: space-between;
+            height: 140px;
+            width: 93%;
+            margin: 0 auto;
+            
+            .card{
+                height: 100%;
+                width: 218px;
+                background-color: #ffffff;
+                border-radius: 8px;
+
+                & > img{
+                    width: 48px;
+                    margin: 0 auto;
+                }
+                & > p{
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+footer{
+
 }
 
