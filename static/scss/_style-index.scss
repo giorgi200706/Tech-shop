@@ -636,10 +636,17 @@ section{
 
                 & > img{
                     width: 48px;
-                    margin: 0 auto;
+                    margin-left: 25px;
+                    margin-top: 25px;
+                    margin-bottom: 14px;
                 }
                 & > p{
                     margin: 0 auto;
+                    font-family: $firago-regular;
+                    color: $text-color;
+                    font-weight: 600;
+                    margin-left: 25px;
+                    font-size: 13px;
                 }
             }
         }
@@ -647,6 +654,96 @@ section{
 }
 
 footer{
+    background-color: $hover-white;
+    padding-bottom: 60px;
 
+    .line{
+        margin: 0 auto;
+        width: 93%;
+        height: 1px;
+        background-color: #00000010;
+        margin-bottom: 30px;
+    }
+    .main{
+        width: 93%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .nav , .tax , .my{
+
+            .title{
+                display: flex;
+                & > img{
+                    height: 23px;
+                    margin-right: 10px;
+                }
+                & > h3{
+                    font-family: $firago-regular;
+                    font-weight: bold;
+                    color: $text-color;
+                    line-height: 1.2;
+                    margin-bottom: 20px;
+                }
+            }  
+            .list{
+                margin-left: 36px;
+                & > p{
+                    font-family: $firago-regular;
+                    color: #455D7A;
+                    margin-bottom: 10px;
+                    font-size: 13px;
+                }
+            }
+        }
+        .con{
+            width: 495px;
+            position: relative;
+
+            .title{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 5px;
+                
+                & > div{
+                    display: flex;
+                    & > img{
+                        height: 23px;
+                        margin-right: 10px;
+                    }
+                    & > h3{
+                        font-family: $firago-regular;
+                        font-weight: bold;
+                        color: $text-color;
+                        line-height: 1.2;
+                        margin-bottom: 20px;
+                    }
+                }
+                & > p{
+                    font-family: $firago-regular;
+                    color: #455D7A;
+                    font-size: 13px;
+                }
+            }
+            & > img{
+                margin-left: 31px;
+                margin-bottom: 18px;
+            }
+            .contact{
+                display: flex;
+                margin-left: 31px;
+
+                & > p{
+                    font-family: $firago-regular;
+                    font-size: 14px;
+                    color: #455D7A;
+                    font-weight: 500;
+                }
+                .left{
+                    margin-right: 70px;
+                }
+            }
+        }
+    }
 }
 
