@@ -66,7 +66,9 @@ for i in range(len(sql.phone)):
 @app.route('/')
 def mainpagebooks():
     
-    return render_template("index.html" , hello = "KK KK")
+
+
+    return render_template("index.html" , phone = phone)
 
 
 @app.route('/phones')

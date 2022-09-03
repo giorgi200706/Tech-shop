@@ -1,4 +1,6 @@
+from audioop import add
 import sqlite3
+from tkinter.tix import COLUMN
 database = 'techshop.db'
 con = sqlite3.connect('techshop.db')
 cur = con.cursor()
@@ -17,6 +19,7 @@ cur = con.cursor()
 data = cur.execute("select * from phones")
 items  = cur.fetchall()
 phone = items;
+
 
 
 con.commit()
