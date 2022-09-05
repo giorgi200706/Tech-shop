@@ -194,15 +194,15 @@ header > div .right > a .basket > p {
   margin-top: 15px;
 }
 
-section {
+.index {
   background-color: #F5F5F5;
 }
 
-section .s-1 {
+.index .s-1 {
   height: 369px;
 }
 
-section .s-1 #slider {
+.index .s-1 #slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -214,25 +214,25 @@ section .s-1 #slider {
           align-items: center;
 }
 
-section .s-1 #slider .container {
+.index .s-1 #slider .container {
   width: 1600px;
   margin: auto;
 }
 
-section .s-1 #slider .container .subcontainer {
+.index .s-1 #slider .container .subcontainer {
   width: 100%;
   margin: auto;
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper {
+.index .s-1 #slider .container .subcontainer .slider-wrapper {
   position: relative;
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper #tns1-ow > button {
+.index .s-1 #slider .container .subcontainer .slider-wrapper #tns1-ow > button {
   display: none;
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .controller {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .controller {
   top: 166px;
   left: 330px;
   display: -webkit-box;
@@ -245,7 +245,7 @@ section .s-1 #slider .container .subcontainer .slider-wrapper .controller {
   z-index: 1;
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls {
   width: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -255,7 +255,7 @@ section .s-1 #slider .container .subcontainer .slider-wrapper .controller .contr
           justify-content: space-between;
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls > button {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls > button {
   z-index: 1;
   padding: 2px;
   width: 45px;
@@ -269,21 +269,21 @@ section .s-1 #slider .container .subcontainer .slider-wrapper .controller .contr
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls > button > i {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls > button > i {
   z-index: 1;
   color: white;
   font-size: 0.75rem;
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls > button:hover {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .controller .controls > button:hover {
   background-color: #ff5000;
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .my-slider {
   position: relative;
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .slide-img {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .slide-img {
   width: 100%;
   height: 369px;
   background-position: center;
@@ -302,34 +302,34 @@ section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .
   transition: 0.5s;
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .slide-img:hover {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .slide-img:hover {
   -webkit-box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.15) inset;
           box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.15) inset;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-1 {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-1 {
   background-image: url(../images/index/s-1/1.png);
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-2 {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-2 {
   background-image: url(../images/index/s-1/2.png);
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-3 {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-3 {
   background-image: url(../images/index/s-1/3.png);
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-4 {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-4 {
   background-image: url(../images/index/s-1/4.png);
 }
 
-section .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-5 {
+.index .s-1 #slider .container .subcontainer .slider-wrapper .my-slider > div .slide .img-5 {
   background-image: url(../images/index/s-1/5.png);
 }
 
-section .s-1 .nav {
+.index .s-1 .nav {
   width: 227px;
   height: 369px;
   display: -webkit-box;
@@ -344,71 +344,58 @@ section .s-1 .nav {
           transform: translate(43px, -369px);
 }
 
-section .s-1 .nav > a {
+.index .s-1 .nav > a {
   height: 40px;
   width: 100%;
   color: #0a3251;
   border-bottom: 0.15px solid rgba(0, 0, 0, 0.05);
 }
 
-section .s-1 .nav > a > div {
+.index .s-1 .nav > a > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 20px;
 }
 
-section .s-1 .nav > a > div > i {
+.index .s-1 .nav > a > div > img {
   height: 20px;
+  width: 20px;
   margin-top: 10px;
 }
 
-section .s-1 .nav > a > div > p {
-  font-size: 12px;
+.index .s-1 .nav > a > div > p {
+  font-size: 13px;
+  font-weight: 500;
   font-family: "FiraGO", sans-serif;
   line-height: 40px;
+  margin-left: 20px;
 }
 
-section .s-1 .nav > a > div .m12 {
-  margin-right: 20px;
-}
-
-section .s-1 .nav > a > div .m14 {
-  margin-right: 16px;
-}
-
-section .s-1 .nav > a > div .m16 {
-  margin-right: 14px;
-}
-
-section .s-1 .nav > a > div .m20 {
-  margin-right: 12px;
-}
-
-section .s-1 .nav > :hover {
+.index .s-1 .nav > :hover {
   background-color: #f5f5f5;
 }
 
-section .s-1 .nav .main-nav-button {
+.index .s-1 .nav .main-nav-button {
   height: 49px;
   background-color: #ff5000;
   text-decoration: none;
 }
 
-section .s-1 .nav .main-nav-button > div > i {
+.index .s-1 .nav .main-nav-button > div > i {
   margin-top: 16px;
   margin-right: 15px;
 }
 
-section .s-1 .nav .main-nav-button > div > p {
+.index .s-1 .nav .main-nav-button > div > p {
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 16px;
   font-family: "FiraGO", sans-serif;
   line-height: 49px;
 }
 
-section .s-1 .nav .right-nav {
+.index .s-1 .nav .right-nav {
   width: 400px;
   height: 100%;
   background-color: aqua;
@@ -417,12 +404,12 @@ section .s-1 .nav .right-nav {
   display: none;
 }
 
-section .s-2 {
+.index .s-2 {
   width: 93%;
   margin: 0 auto;
 }
 
-section .s-2 .hot .title, section .s-2 .brands .title, section .s-2 .top .title, section .s-2 .nah .title {
+.index .s-2 .hot .title, .index .s-2 .brands .title, .index .s-2 .top .title, .index .s-2 .nah .title {
   margin-top: 15px;
   padding-bottom: 26px;
   display: -webkit-box;
@@ -431,7 +418,7 @@ section .s-2 .hot .title, section .s-2 .brands .title, section .s-2 .top .title,
   width: 400px;
 }
 
-section .s-2 .hot .title > div, section .s-2 .brands .title > div, section .s-2 .top .title > div, section .s-2 .nah .title > div {
+.index .s-2 .hot .title > div, .index .s-2 .brands .title > div, .index .s-2 .top .title > div, .index .s-2 .nah .title > div {
   width: 42px;
   height: 42px;
   background-color: #ffffff;
@@ -443,7 +430,7 @@ section .s-2 .hot .title > div, section .s-2 .brands .title > div, section .s-2 
   margin-right: 15px;
 }
 
-section .s-2 .hot .title > h3, section .s-2 .brands .title > h3, section .s-2 .top .title > h3, section .s-2 .nah .title > h3 {
+.index .s-2 .hot .title > h3, .index .s-2 .brands .title > h3, .index .s-2 .top .title > h3, .index .s-2 .nah .title > h3 {
   line-height: 42px;
   font-family: "FiraGO", sans-serif;
   font-weight: bold;
@@ -451,12 +438,12 @@ section .s-2 .hot .title > h3, section .s-2 .brands .title > h3, section .s-2 .t
   font-size: 17px;
 }
 
-section .s-2 .hot .list {
+.index .s-2 .hot .list {
   width: 100%;
   padding-bottom: 10px;
 }
 
-section .s-2 .hot .list .biggie {
+.index .s-2 .hot .list .biggie {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -468,7 +455,7 @@ section .s-2 .hot .list .biggie {
       flex-wrap: wrap;
 }
 
-section .s-2 .hot .list .biggie .box {
+.index .s-2 .hot .list .biggie .box {
   width: 218px;
   height: 269px;
   background-color: #ffffff;
@@ -478,21 +465,21 @@ section .s-2 .hot .list .biggie .box {
   margin-bottom: 20px;
 }
 
-section .s-2 .hot .list .biggie .box > img {
+.index .s-2 .hot .list .biggie .box > img {
   margin-left: 30px;
   margin-top: 15px;
   width: 157px;
   height: 157px;
 }
 
-section .s-2 .hot .list .biggie .box .info {
+.index .s-2 .hot .list .biggie .box .info {
   margin: 0 auto;
   width: 198px;
   height: 87px;
   text-align: center;
 }
 
-section .s-2 .hot .list .biggie .box .info > h4 {
+.index .s-2 .hot .list .biggie .box .info > h4 {
   max-width: 175px;
   margin: 0 auto;
   height: 30px;
@@ -503,7 +490,7 @@ section .s-2 .hot .list .biggie .box .info > h4 {
   margin-bottom: 5px;
 }
 
-section .s-2 .hot .list .biggie .box .info > h5 {
+.index .s-2 .hot .list .biggie .box .info > h5 {
   line-height: 27px;
   font-size: 20px;
   font-family: "FiraGO", sans-serif;
@@ -512,7 +499,7 @@ section .s-2 .hot .list .biggie .box .info > h5 {
   margin-bottom: 5px;
 }
 
-section .s-2 .hot .list .biggie .box .info > div {
+.index .s-2 .hot .list .biggie .box .info > div {
   margin: 0 auto;
   width: 100px;
   font-size: 12px;
@@ -520,40 +507,40 @@ section .s-2 .hot .list .biggie .box .info > div {
   font-weight: 600;
 }
 
-section .s-2 .hot .list .biggie .box .info > div .s1 {
+.index .s-2 .hot .list .biggie .box .info > div .s1 {
   color: #FE5F55;
 }
 
-section .s-2 .hot .list .biggie .box .info > div .s2 {
+.index .s-2 .hot .list .biggie .box .info > div .s2 {
   color: #7B838E;
 }
 
-section .s-2 .brands .list {
+.index .s-2 .brands .list {
   padding-bottom: 43px;
 }
 
-section .s-2 .brands .list #slider .container .subcontainer {
+.index .s-2 .brands .list #slider .container .subcontainer {
   width: 100%;
   margin: auto;
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper {
   position: relative;
   width: 100%;
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper #tns1-ow > button {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper #tns1-ow > button {
   display: none;
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .controller {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .controller {
   width: 100px;
   position: absolute;
   right: 10px;
   top: -65px;
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .controller .controls > button {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .controller .controls > button {
   -webkit-transform: skew(-10deg);
           transform: skew(-10deg);
   width: 44px;
@@ -563,18 +550,18 @@ section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .con
   border-radius: 4px;
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 {
   position: relative;
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide {
   width: 222px;
   height: 86px;
   padding-top: 7px;
   padding-bottom: 7px;
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .slide-img {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .slide-img {
   width: 170px;
   height: 72px;
   margin: 0 auto;
@@ -583,59 +570,59 @@ section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-
   cursor: pointer;
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .slide:hover {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .slide:hover {
   -webkit-box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.15) inset;
           box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.15) inset;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-1 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-1 {
   background-image: url(../images/index/s-2/brands/0124554_apple.png);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-2 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-2 {
   background-image: url(../images/index/s-2/brands/0125036_google.png);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-3 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-3 {
   background-image: url(../images/index/s-2/brands/0125319_microsoft.png);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-4 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-4 {
   background-image: url(../images/index/s-2/brands/0125417_oneplus.png);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-5 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-5 {
   background-image: url(../images/index/s-2/brands/0125724_marshall.png);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-6 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-6 {
   background-image: url(../images/index/s-2/brands/0131069_msi.png);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-7 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-7 {
   background-image: url(../images/index/s-2/brands/0141374_huawei.png);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-8 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-8 {
   background-image: url(../images/index/s-2/brands/0144108_xiaomi.png);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-9 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-9 {
   background-image: url(../images/index/s-2/brands/0158419_hp.png);
 }
 
-section .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-10 {
+.index .s-2 .brands .list #slider .container .subcontainer .slider-wrapper .my-slider2 > div .slide .img-10 {
   background-image: url(../images/index/s-2/brands/0164271_canon.png);
 }
 
-section .s-2 .top .list {
+.index .s-2 .top .list {
   width: 100%;
   padding-bottom: 10px;
 }
 
-section .s-2 .top .list .biggie {
+.index .s-2 .top .list .biggie {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -647,7 +634,7 @@ section .s-2 .top .list .biggie {
       flex-wrap: wrap;
 }
 
-section .s-2 .top .list .biggie .box {
+.index .s-2 .top .list .biggie .box {
   width: 218px;
   height: 269px;
   background-color: #ffffff;
@@ -657,21 +644,21 @@ section .s-2 .top .list .biggie .box {
   margin-bottom: 20px;
 }
 
-section .s-2 .top .list .biggie .box > img {
+.index .s-2 .top .list .biggie .box > img {
   margin-left: 30px;
   margin-top: 15px;
   width: 157px;
   height: 157px;
 }
 
-section .s-2 .top .list .biggie .box .info {
+.index .s-2 .top .list .biggie .box .info {
   margin: 0 auto;
   width: 198px;
   height: 87px;
   text-align: center;
 }
 
-section .s-2 .top .list .biggie .box .info > h4 {
+.index .s-2 .top .list .biggie .box .info > h4 {
   max-width: 175px;
   margin: 0 auto;
   height: 30px;
@@ -682,7 +669,7 @@ section .s-2 .top .list .biggie .box .info > h4 {
   margin-bottom: 5px;
 }
 
-section .s-2 .top .list .biggie .box .info > h5 {
+.index .s-2 .top .list .biggie .box .info > h5 {
   line-height: 27px;
   font-size: 20px;
   font-family: "FiraGO", sans-serif;
@@ -691,7 +678,7 @@ section .s-2 .top .list .biggie .box .info > h5 {
   margin-bottom: 5px;
 }
 
-section .s-2 .top .list .biggie .box .info > div {
+.index .s-2 .top .list .biggie .box .info > div {
   margin: 0 auto;
   width: 100px;
   font-size: 12px;
@@ -699,20 +686,20 @@ section .s-2 .top .list .biggie .box .info > div {
   font-weight: 600;
 }
 
-section .s-2 .top .list .biggie .box .info > div .s1 {
+.index .s-2 .top .list .biggie .box .info > div .s1 {
   color: #FE5F55;
 }
 
-section .s-2 .top .list .biggie .box .info > div .s2 {
+.index .s-2 .top .list .biggie .box .info > div .s2 {
   color: #7B838E;
 }
 
-section .s-2 .nah .list {
+.index .s-2 .nah .list {
   width: 100%;
   padding-bottom: 10px;
 }
 
-section .s-2 .nah .list .biggie {
+.index .s-2 .nah .list .biggie {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -724,7 +711,7 @@ section .s-2 .nah .list .biggie {
       flex-wrap: wrap;
 }
 
-section .s-2 .nah .list .biggie .box {
+.index .s-2 .nah .list .biggie .box {
   width: 218px;
   height: 269px;
   background-color: #ffffff;
@@ -734,21 +721,21 @@ section .s-2 .nah .list .biggie .box {
   margin-bottom: 20px;
 }
 
-section .s-2 .nah .list .biggie .box > img {
+.index .s-2 .nah .list .biggie .box > img {
   margin-left: 30px;
   margin-top: 15px;
   width: 157px;
   height: 157px;
 }
 
-section .s-2 .nah .list .biggie .box .info {
+.index .s-2 .nah .list .biggie .box .info {
   margin: 0 auto;
   width: 198px;
   height: 87px;
   text-align: center;
 }
 
-section .s-2 .nah .list .biggie .box .info > h4 {
+.index .s-2 .nah .list .biggie .box .info > h4 {
   max-width: 175px;
   margin: 0 auto;
   height: 30px;
@@ -759,7 +746,7 @@ section .s-2 .nah .list .biggie .box .info > h4 {
   margin-bottom: 5px;
 }
 
-section .s-2 .nah .list .biggie .box .info > h5 {
+.index .s-2 .nah .list .biggie .box .info > h5 {
   line-height: 27px;
   font-size: 20px;
   font-family: "FiraGO", sans-serif;
@@ -768,7 +755,7 @@ section .s-2 .nah .list .biggie .box .info > h5 {
   margin-bottom: 5px;
 }
 
-section .s-2 .nah .list .biggie .box .info > div {
+.index .s-2 .nah .list .biggie .box .info > div {
   margin: 0 auto;
   width: 100px;
   font-size: 12px;
@@ -776,21 +763,21 @@ section .s-2 .nah .list .biggie .box .info > div {
   font-weight: 600;
 }
 
-section .s-2 .nah .list .biggie .box .info > div .s1 {
+.index .s-2 .nah .list .biggie .box .info > div .s1 {
   color: #FE5F55;
 }
 
-section .s-2 .nah .list .biggie .box .info > div .s2 {
+.index .s-2 .nah .list .biggie .box .info > div .s2 {
   color: #7B838E;
 }
 
-section .s-3 {
+.index .s-3 {
   margin-top: 30px;
   width: 100%;
   padding-bottom: 80px;
 }
 
-section .s-3 > div {
+.index .s-3 > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -802,21 +789,21 @@ section .s-3 > div {
   margin: 0 auto;
 }
 
-section .s-3 > div .card {
+.index .s-3 > div .card {
   height: 100%;
   width: 218px;
   background-color: #ffffff;
   border-radius: 8px;
 }
 
-section .s-3 > div .card > img {
+.index .s-3 > div .card > img {
   width: 48px;
   margin-left: 25px;
   margin-top: 25px;
   margin-bottom: 14px;
 }
 
-section .s-3 > div .card > p {
+.index .s-3 > div .card > p {
   margin: 0 auto;
   font-family: "FiraGO", sans-serif;
   color: #0a3251;
@@ -825,12 +812,12 @@ section .s-3 > div .card > p {
   font-size: 13px;
 }
 
-footer {
+.f-index {
   background-color: #f5f5f5;
   padding-bottom: 60px;
 }
 
-footer .line {
+.f-index .line {
   margin: 0 auto;
   width: 93%;
   height: 1px;
@@ -838,7 +825,7 @@ footer .line {
   margin-bottom: 50px;
 }
 
-footer .main {
+.f-index .main {
   width: 93%;
   margin: 0 auto;
   display: -webkit-box;
@@ -849,18 +836,18 @@ footer .main {
           justify-content: space-between;
 }
 
-footer .main .nav .title, footer .main .tax .title, footer .main .my .title {
+.f-index .main .nav .title, .f-index .main .tax .title, .f-index .main .my .title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-footer .main .nav .title > img, footer .main .tax .title > img, footer .main .my .title > img {
+.f-index .main .nav .title > img, .f-index .main .tax .title > img, .f-index .main .my .title > img {
   height: 23px;
   margin-right: 10px;
 }
 
-footer .main .nav .title > h3, footer .main .tax .title > h3, footer .main .my .title > h3 {
+.f-index .main .nav .title > h3, .f-index .main .tax .title > h3, .f-index .main .my .title > h3 {
   font-family: "FiraGO", sans-serif;
   font-weight: bold;
   color: #0a3251;
@@ -868,23 +855,23 @@ footer .main .nav .title > h3, footer .main .tax .title > h3, footer .main .my .
   margin-bottom: 20px;
 }
 
-footer .main .nav .list, footer .main .tax .list, footer .main .my .list {
+.f-index .main .nav .list, .f-index .main .tax .list, .f-index .main .my .list {
   margin-left: 36px;
 }
 
-footer .main .nav .list > p, footer .main .tax .list > p, footer .main .my .list > p {
+.f-index .main .nav .list > p, .f-index .main .tax .list > p, .f-index .main .my .list > p {
   font-family: "FiraGO", sans-serif;
   color: #455D7A;
   margin-bottom: 10px;
   font-size: 13px;
 }
 
-footer .main .con {
+.f-index .main .con {
   width: 495px;
   position: relative;
 }
 
-footer .main .con .title {
+.f-index .main .con .title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -894,18 +881,18 @@ footer .main .con .title {
   margin-bottom: 5px;
 }
 
-footer .main .con .title > div {
+.f-index .main .con .title > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-footer .main .con .title > div > img {
+.f-index .main .con .title > div > img {
   height: 23px;
   margin-right: 10px;
 }
 
-footer .main .con .title > div > h3 {
+.f-index .main .con .title > div > h3 {
   font-family: "FiraGO", sans-serif;
   font-weight: bold;
   color: #0a3251;
@@ -913,32 +900,52 @@ footer .main .con .title > div > h3 {
   margin-bottom: 20px;
 }
 
-footer .main .con .title > p {
+.f-index .main .con .title > p {
   font-family: "FiraGO", sans-serif;
   color: #455D7A;
   font-size: 13px;
 }
 
-footer .main .con > img {
+.f-index .main .con > img {
   margin-left: 31px;
   margin-bottom: 18px;
 }
 
-footer .main .con .contact {
+.f-index .main .con .contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 31px;
 }
 
-footer .main .con .contact > p {
+.f-index .main .con .contact > p {
   font-family: "FiraGO", sans-serif;
   font-size: 14px;
   color: #455D7A;
   font-weight: 500;
 }
 
-footer .main .con .contact .left {
+.f-index .main .con .contact .left {
   margin-right: 70px;
+}
+
+.store-list .s-1 {
+  padding-top: 20px;
+}
+
+.store-list .s-1 .nav {
+  width: 92%;
+  margin: 0 auto;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ff5000;
+}
+
+.store-list .s-1 .nav > a {
+  width: 275px;
+}
+
+.f-store-list {
+  display: none;
 }
 /*# sourceMappingURL=global.css.map */

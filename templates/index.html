@@ -40,7 +40,7 @@
                 </div>
             </div>
         </header>
-        <section>
+        <section class="index">
             <div class="s-1">
                 <div id="slider">
                     <div class="container">
@@ -102,52 +102,52 @@
                             <p>ნავიგაცია</p>
                         </div>
                     </a>
-                    <a href="/phones">
+                    <a href="/apple">
                         <div>
-                            <i class="fa-solid fa-mobile-screen-button m12"></i>
-                            <p>მობილურები</p>
+                            <img src="../static/images/index/brands/apple.png" alt="img">
+                            <p>Apple</p>
                         </div>
                     </a>
-                    <a href="/tabs">
+                    <a href="/samsung">
                         <div>
-                            <i class="fa-solid fa-tablet-screen-button m14"></i>
-                            <p>ტაბები</p>
+                            <img src="../static/images/index/brands/samsung.png" alt="img">
+                            <p>Samsung</p>
                         </div>
                     </a>
-                    <a href="/laptops">
+                    <a href="/huawei">
                         <div>
-                            <i class="fa-solid fa-laptop m20"></i>
-                            <p>ლეპტოპები</p>
+                            <img src="../static/images/index/brands/huawei.png" alt="img">
+                            <p>Huawei</p>
                         </div>
                     </a>
-                    <a href="/audio">
+                    <a href="/xiaomi">
                         <div>
-                            <i class="fa-solid fa-music m16"></i>
-                            <p>აუდიო სისტემა</p>
+                            <img src="../static/images/index/brands/xiaomi.png" alt="img">
+                            <p>Xiaomi</p>
                         </div>
                     </a>
-                    <a href="/gaming">
+                    <a href="/oneplus">
                         <div>
-                            <i class="fa-solid fa-gamepad m20"></i>
-                            <p>Gaming</p>
+                            <img src="../static/images/index/brands/oneplus.png" alt="img">
+                            <p>Oneplus</p>
                         </div>
                     </a>
-                    <a href="/tel-mon">
+                    <a href="/google">
                         <div>
-                            <i class="fa-solid fa-tv m20"></i>
-                            <p>ტელევიზორი | მონიტორი</p>
+                            <img src="../static/images/index/brands/google.png" alt="img">
+                            <p>Google</p>
                         </div>
                     </a>
-                    <a href="/photo-video">
+                    <a href="/realme">
                         <div>
-                            <i class="fa-solid fa-camera m16"></i>
-                            <p>ფოტო | ვიდეო | ოპტიკა</p>
+                            <img src="../static/images/index/brands/realme.png" alt="img">
+                            <p>Realme</p>
                         </div>
                     </a>
-                    <a href="/others">
+                    <a href="/all">
                         <div>
-                            <i class="fa-solid fa-headphones m16"></i>
-                            <p>აქსესუარები</p>
+                            <img src="../static/images/index/brands/phone.png" alt="img">
+                            <p>ყველა</p>
                         </div>
                     </a>
 
@@ -171,7 +171,7 @@
 
                                 {% for i in range(10) %}
 
-                                <div class="box">
+                                <a href="{{ phone[i].get('fullname') }}" class="box">
                                     <img src="../static/images/phones/Apple/{{ phone[i].get('fullname') }}/1.jpeg" alt="img">
                                     <div class="info">
                                         <h4> 
@@ -185,7 +185,7 @@
                                             <span class="s2">- დან</span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
 
                                 {% endfor %}
 
@@ -307,7 +307,7 @@
                             
                             {% for i in range(10) %}
 
-                                <div class="box">
+                                <a href="{{ phone[i].get('fullname') }}" class="box">
                                     <img src="../static/images/phones/Apple/{{ phone[i].get('fullname') }}/1.jpeg" alt="img">
                                     <div class="info">
                                         <h4> 
@@ -321,7 +321,7 @@
                                             <span class="s2">- დან</span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
 
                                 {% endfor %}
 
@@ -342,7 +342,7 @@
                             
                             {% for i in range(10) %}
 
-                                <div class="box">
+                                <a href="{{ phone[i].get('fullname') }}" class="box">
                                     <img src="../static/images/phones/Apple/{{ phone[i].get('fullname') }}/1.jpeg" alt="img">
                                     <div class="info">
                                         <h4> 
@@ -356,7 +356,7 @@
                                             <span class="s2">- დან</span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
 
                             {% endfor %}
 
@@ -392,7 +392,7 @@
                 </div>
             </div>
         </section>
-        <footer>
+        <footer class="f-index">
             <div class="line"></div>
             <div class="main">
                 <div class="nav">

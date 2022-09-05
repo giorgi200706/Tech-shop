@@ -2,7 +2,6 @@ from flask import Flask, render_template , request
 import sql
 app = Flask(__name__)
 
-
 phone = []
 for i in range(len(sql.phone)):
     phone.append({
@@ -40,6 +39,46 @@ for i in range(len(sql.phone)):
     })
 
 
+apple = []
+for i in range(len(phone)):
+    if phone[i]["company"] == "Apple":
+        apple.append(phone[i])
+
+samsung = []
+for i in range(len(phone)):
+    if phone[i]["company"] == "Samsung":
+        samsung.append(phone[i])
+
+huawei = []
+for i in range(len(phone)):
+    if phone[i]["company"] == "Huawei":
+        huawei.append(phone[i])
+
+xiaomi = []
+for i in range(len(phone)):
+    if phone[i]["company"] == "Xiaomi":
+        xiaomi.append(phone[i])
+
+oneplus = []
+for i in range(len(phone)):
+    if phone[i]["company"] == "Oneplus":
+        oneplus.append(phone[i])
+
+google = []
+for i in range(len(phone)):
+    if phone[i]["company"] == "Google":
+        google.append(phone[i])
+
+
+realme = []
+for i in range(len(phone)):
+    if phone[i]["company"] == "Realme":
+        realme.append(phone[i])
+
+
+
+
+
 
 
 
@@ -66,43 +105,48 @@ for i in range(len(sql.phone)):
 @app.route('/')
 def mainpagebooks():
     
-
-
     return render_template("index.html" , phone = phone)
 
-
-@app.route('/phones')
+@app.route('/apple')
 def phones():
     
-    return render_template("pages/store-list.html")
-@app.route('/tabs')
+    return render_template("pages/store-list.html" , phone = apple)
+
+@app.route('/samsung')
 def tabs():
     
-    return render_template("pages/store-list.html")
-@app.route('/laptops')
+    return render_template("pages/store-list.html" , phone = samsung)
+
+@app.route('/huawei')
 def laptops():
     
-    return render_template("pages/store-list.html")
-@app.route('/audio')
+    return render_template("pages/store-list.html" , phone = huawei)
+
+@app.route('/xiaomi')
 def audio():
     
-    return render_template("pages/store-list.html")
-@app.route('/gaming')
+    return render_template("pages/store-list.html" , phone = xiaomi)
+
+@app.route('/oneplus')
 def gaming():
     
-    return render_template("pages/store-list.html")
-@app.route('/tel-mon')
+    return render_template("pages/store-list.html" , phone = oneplus)
+
+@app.route('/google')
 def telmon():
     
-    return render_template("pages/store-list.html")
-@app.route('/photo-video')
+    return render_template("pages/store-list.html" , phone = google)
+
+@app.route('/realme')
 def photovideo():
     
-    return render_template("pages/store-list.html")
-@app.route('/others')
+    return render_template("pages/store-list.html" , phone = realme)
+
+@app.route('/all')
 def others():
     
-    return render_template("pages/store-list.html")
+    return render_template("pages/store-list.html" , phone = phone)
+
 
 
 
