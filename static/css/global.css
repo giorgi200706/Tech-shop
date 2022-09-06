@@ -934,15 +934,86 @@ header > div .right > a .basket > p {
 }
 
 .store-list .s-1 .nav {
-  width: 92%;
+  width: 93%;
   margin: 0 auto;
   height: 50px;
   border-radius: 5px;
   background-color: #ff5000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 40px;
 }
 
-.store-list .s-1 .nav > a {
+.store-list .s-1 .nav .main-nav-button {
   width: 275px;
+  height: 50px;
+  background-color: #0a3251;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.store-list .s-1 .nav .main-nav-button > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+.store-list .s-1 .nav .main-nav-button > div .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.store-list .s-1 .nav .main-nav-button > div .left > p {
+  color: #ffffff;
+  font-family: "FiraGO", sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.store-list .s-1 .nav .main-nav-button > div .right {
+  margin-top: 2px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "FiraGO", sans-serif;
+}
+
+.store-list .s-1 .nav > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 35px;
+  top: 16px;
+  color: #ffffff;
+  font-family: "FiraGO", sans-serif;
+}
+
+.store-list .s-1 .nav > div > p {
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.store-list .s-1 .nav > div .x {
+  height: 12px;
+}
+
+.store-list .s-1 .nav > div .h5 {
+  font-family: "FiraGO", sans-serif;
+}
+
+.store-list .s-2 {
+  height: 200px;
+  width: 100%;
+  background-color: #ebcbbc;
 }
 
 .f-store-list {

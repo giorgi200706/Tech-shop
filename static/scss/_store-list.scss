@@ -3,18 +3,100 @@
         padding-top: 20px;
 
         .nav{
-            width: 92%;
+            width: 93%;
             margin: 0 auto;
             height: 50px;
             border-radius: 5px;
             background-color: #ff5000;
+            display: flex;
+            position: relative;
+            margin-bottom: 40px;
 
-            & > a{
+            .main-nav-button{
                  width: 275px; 
+                 height: 50px;
+                 background-color: #0a3251;
+                 border-top-left-radius: 5px;
+                 border-bottom-left-radius: 5px;
+
+                 & > div{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 240px;
+                    margin: 0 auto;
+                    margin-top: 16px;
+
+                    .left{
+                        display: flex;
+
+                        & > p{
+                            color: #ffffff;
+                            font-family: $firago-regular;
+                            font-weight: bold;
+                            margin-left: 10px;
+                        }
+                    }
+                    .right{
+                        margin-top: 2px;
+                        color: #ffffff;
+                        font-size: 12px;
+                        font-family: $firago-regular;
+                    }
+                 }
+            }
+            & > div{
+                display: flex;
+                position: absolute;
+                right: 35px;
+                top: 16px;
+                color: #ffffff;
+                font-family: $firago-regular;
+
+                & > p{
+                    font-size: 15px;
+                    margin-right: 20px;
+                }
+                .x{
+                    height: 12px;
+                }
+                .h5{
+                    font-family: $firago-regular;
+                }
             }
         }
     }
+    .s-2{
+        height: 200px;
+        width: 100%;
+        background-color: #ebcbbc;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .f-store-list{
